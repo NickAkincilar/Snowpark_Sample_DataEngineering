@@ -1,5 +1,5 @@
 # Snowpark_Sample_DataEngineering
-Here is a Snowflake Snowpark Python code for data engineering. It uses the freely available sample database as a source. 
+Here is a very basic Snowflake Snowpark Python code for data engineering showing basic dataframe operations such as reading, grouping and writing data. It uses the freely available sample database built into Snowflake as the source. 
 
 Logic is pretty simple
 1. Increase the compute to 32 nodes
@@ -8,7 +8,7 @@ Logic is pretty simple
 4. Write the resulting dataframe to a physical Snowflake table
 5. Decrease the compute to 1 node
 
-Entire operation from increasing computem, reading the data, joining, summarizing & scaling down takes around 40-45 secs.
+Entire operation from increasing computem, reading the data, joining, summarizing & scaling down **takes about 40-45 secs** showing you the power & instant scalibity & performance of Snowflake  
 
 ## Installing  Snowpark
 #### Your local environment such as PyCharm, Visual Studio, Jupyter & etc.
