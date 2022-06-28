@@ -8,7 +8,7 @@ Logic is pretty simple
 4. Write the resulting dataframe to a physical Snowflake table
 5. Decrease the compute to 1 node
 
-Entire operation from increasing compute, reading the data, joining, summarizing & scaling down **takes about 40-45 secs** showing you the power & instant scalibity & performance of Snowflake  
+Entire operation from increasing compute, reading the data, joining, summarizing & scaling down **takes about 40-45 secs** showing you the power & instant scalability & performance of Snowflake  
 
 ## Installing  Snowpark
 #### Your local environment such as PyCharm, Visual Studio, Jupyter & etc.
