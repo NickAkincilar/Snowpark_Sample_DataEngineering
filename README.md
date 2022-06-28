@@ -20,6 +20,8 @@ Simply use the PyPI option and enter
 "snowflake-snowpark-python[pandas]"
 ~~~
 
+<img src="https://raw.githubusercontent.com/NickAkincilar/Snowpark_Sample_DataEngineering/main/Screen%20Shot%202022-06-28%20at%2012.08.53%20PM.png" width="500">
+
 ### Here is the sample code
 
 ~~~python
