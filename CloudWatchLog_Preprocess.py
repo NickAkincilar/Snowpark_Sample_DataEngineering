@@ -14,8 +14,8 @@ def lambda_handler(event, context):
     """
     output_records = []
 
-    if print_input_event:
-        print(f"Input event: {json.dumps(event)}")
+    # if print_input_event:
+    #    print(f"Input event: {json.dumps(event)}")
 
     for record in event['records']:
         try:
@@ -63,7 +63,7 @@ def lambda_handler(event, context):
     if print_transformed_records:
         print(f"Transformed records: {json.dumps(output_records)}")
 
-    print(f"Successfully processed {len(output_records)} records.")
+    # print(f"Successfully processed {len(output_records)} records.")
 
     # STEP 4: Return the final object that Firehose expects.
     return {'records': output_records}
