@@ -60,8 +60,8 @@ def lambda_handler(event, context):
             })
             continue
 
-    if print_transformed_records:
-        print(f"Transformed records: {json.dumps(output_records)}")
+    # if print_transformed_records:
+    #    print(f"Transformed records: {json.dumps(output_records)}")
 
     # print(f"Successfully processed {len(output_records)} records.")
 
